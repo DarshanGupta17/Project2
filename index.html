@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Hotels</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark p-3" style="width: 100%" >
+        <div class="container-fluid">
+          <h3 style="margin-right: 35%; border-bottom: 1px solid wheat; cursor: pointer; color: wheat;">FlamBoyant</h3>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-1">
+              <li class="nav-item mr-4">
+                <a class="nav-link" class="active" href="#">Home</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  State
+                </a>
+                <ul class="dropdown-menu text-truncate" style="background-color: wheat;">
+                  <li><a class="dropdown-item" href="#">Uttar Pradesh</a></li>
+                  <li><a class="dropdown-item" href="#">Maharastra</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Search on map</a></li>
+                </ul>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 w-75 bg-dark" type="search" placeholder="Search" aria-label="Search" style="color: wheat;">
+                <button class="btn btn-warning mr-5" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <section class="Home">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col" id="header"><span id="head1"><strong style="color: wheat;">Search <br>Hotels Nearby!!</strong></span> <div class="d-flex flex-wrap jutify-content-center justify-content-md-start">
+                    <a href="#" class="btn btn-warning btn-lg" id="btn">Book a stay
+                    </a>
+                </div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
+      </section>
+      <section class="About pt-5 bg-dark p-5">
+        <div class="container">
+            <div class="row border border-info">
+                <div class="col">
+                    <img src="imgs/2.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="col mt-5">
+                    <h1 style="color: wheat;" class="text-center">FlamBoyant-Present's</h1>
+                    <hr style="color: wheat;">
+                    <h2 style="line-height: 100px; color: wheat;">25% OFF on your first Booking  , 10% OFF on every Booking ever After</h2>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="search" style="background-color: wheat;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="display-4 text-center"><strong> Most Popular Searches</strong></h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col" >
+                    <div class="card bg-dark" style="width: 18rem;" id="car">
+                        <h5 class="card-header" style="color: wheat;">T2 Beacon</h5>
+                        <img src="imgs/mumbai.avif" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">Mumbai</h5>
+                            <p class="card-text" style="color: wheat;">somewhere in the world this master piece exists</p>
+                            <a href="" class="btn btn-success">Available</a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark" style="width: 18rem;" id="car">
+                        <h5 class="card-header" style="color: wheat;">GoldFlinch</h5>
+                        <img src="imgs/Goldflinch.jpg" class="card-img-top" style="height: 160px;">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">Mumbai</h5>
+                            <p class="card-text" style="color: wheat;">restaurent and Bar do want to you park you car</p>
+                            <a href="" class="btn btn-success">Available</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark" style="width: 18rem;" id="car">
+                        <h5 class="card-header" style="color: wheat;">Taj</h5>
+                        <img src="imgs/taj.jpg" class="card-img-top" style="height: 160px;">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">Mumbai</h5>
+                            <p class="card-text" style="color: wheat;">Nobody can own me until it comes to TATA</p>
+                            <a href="" class="btn btn-danger disabled">sorry , Not Available</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark" style="width: 18rem;" id="car">
+                        <h5 class="card-header" style="color: wheat;">Fariyas</h5>
+                        <img src="imgs/fariyas.jpg" class="card-img-top" style="height: 160px;">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">Mumbai</h5>
+                            <p class="card-text" style="color: wheat;">we are famous for our rooms and Bar facilities</p>
+                            <a href="" class="btn btn-success">Available</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark mt-4 mb-4  " style="width: 18rem;" id="car">
+                        <h5 class="card-header" style="color: wheat;">FairField</h5>
+                        <img src="imgs/Fairfield Goa.webp" class="card-img-top" style="height: 160px;">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">GOA</h5>
+                            <p class="card-text" style="color: wheat;">we are famous for our rooms and Bar facilities</p>
+                            <a href="" class="btn btn-warning">hurry! only 2 left</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark mt-4" style="width: 18rem;" id="car">
+                        <h5 class="card-header" style="color: wheat;">Golden Tulip</h5>
+                        <img src="imgs/goldenTulip.jpg" class="card-img-top" style="height: 160px;">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">Vishakhapatnam</h5>
+                            <p class="card-text" style="color: wheat;">we are famous for our rooms and Bar facilities</p>
+                            <a href="" class="btn btn-success">Available</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark mt-4" style="width: 18rem;" id="car">
+                        <h5 class="card-header" style="color: wheat;">Hard Rock</h5>
+                        <img src="imgs/HardRock Goa.jpg" class="card-img-top" style="height: 160px;">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">GOA</h5>
+                            <p class="card-text" style="color: wheat;">we are famous for our rooms and Bar facilities</p>
+                            <a href="" class="btn btn-success">Available</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark mt-4" style="width: 18rem;" id="car">
+                        <h5 class="card-header" style="color: wheat;">Vagator Beach</h5>
+                        <img src="imgs/vagator beach goa.avif" class="card-img-top" style="height: 160px;">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">Dehradun</h5>
+                            <p class="card-text" style="color: wheat;">we are famous for our rooms and Bar facilities</p>
+                            <a href="" class="btn btn-success">Available</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="recent bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="display-4 p-4 text-center" style="color: wheat;">Our Recent Bookings</h2>
+                    <hr style="color: wheat;">
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imgs/slide 1.jpg" class="d-block w-100" id="slideshow">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>GOA</h5>
+                  <p>The pool isn't just for Show , you can bath in it</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/slide 2.jpg" class="d-block w-100" id="slideshow" >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Dehradun</h5>
+                  <p>This place is not always crowded , like in this photo</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/slide3.jpg" class="d-block w-100" id="slideshow">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Kerala</h5>
+                  <p>Want some peace , don't just look at the picture , visit us</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/slide 4.jpg" class="d-block w-100" id="slideshow">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Kerala</h5>
+                  <p>Want some peace , don't just look at the picture , visit us</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/slide 5.jpg" class="d-block w-100" id="slideshow">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Rajasthan</h5>
+                  <p>you think we are out of water , Habibi come to rajasthan</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+      <section class="register pt-3 pb-4" style="background-color: wheat;">
+        <div class="container">
+            <div class="row">
+                <h4 class="text-center mb-3 p-3" style="align-content: center; border-bottom: 1px solid black;">About Flamboyant</h4>    
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-dark mt-4" style="align-items: center;" id="about">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">Fastest Search</h5>
+                            <hr style="color: wheat;">
+                            <p class="card-text pt-3 pb-4" style="color: wheat;">Flamboyant's hotel search allows users to compare hotel prices in just a few clicks from hundreds of booking sites for more than 5.0 million hotels and other types of accommodation
+                                 in over 190 countries. We help millions of travelers each year compare deals for hotels and accommodations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark mt-4" style="align-items: center;" id="about">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">Find cheap Hotels on FlamBoyant</h5>
+                            <hr style="color: wheat;">
+                            <p class="card-text pb-2 pt-1 " style="color: wheat;">With FlamBoyant you can easily find your ideal hotel and compare prices from different websites. Simply enter where you want to go and your desired travel dates, and let our search engine compare accommodation prices for you. To refine your search results, simply filter by price, distance (e.g. from the beach), star category,
+                                 facilities and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-dark mt-4" style="align-items: center;" id="about">
+                        <div class="card-body">
+                            <h5 class="cad-title" style="color: wheat;">Hotel reviews help you find your ideal hotel</h5>
+                            <hr style="color: wheat;">
+                            <p class="card-text pt-3 pb-4" style="color: wheat;">
+                                Over 175 million aggregated hotel ratings and more than 19 million images allow you to find out more about where you're travelling.
+                                To get an extended overview of a hotel property, FlamBoyant shows the average rating and extensive reviews from other booking sites, e.g. Hotels.com, Expedia, Agoda, leading hotels, etc. FlamBoyant makes it easy for you to find information about your weekend trip to Singapore and see if the hotel will meet your expectations. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="contact bg-dark" style="color: wheat;">
+        <div class="container" style="width: 60%;">
+            <div class="row">
+                <h2 class="display-4 text-center">Register Yourself</h2>
+                <hr color="wheat" class="mb-4">
+            </div>
+        <Div class="row">
+            <div class="col"><form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">FIRST NAME</label>
+                  <input type="email" class="form-control bg-dark" id="name" aria-describedby="emailHelp" style="color: wheat;">
+               
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">PHONE</label>
+                  <input type="tel" class="form-control bg-dark" id="phone" style="color: wheat;">
+                </div>
+              </form></div>
+            <div class="col"><form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">LAST NAME</label>
+                  <input type="email" class="form-control bg-dark" id="name" aria-describedby="emailHelp" style="color: wheat;">
+                
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">EMAIL</label>
+                  <input type="email" class="form-control bg-dark" id="email" style="color: wheat;">
+                </div>
+              
+             
+              </form></div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">ANY SUGGESTIONS (OPTIONAL)</label>
+                <textarea class="form-control bg-dark" id="exampleFormControlTextarea1" rows="3" style="color: wheat;"></textarea>
+              </div>
+               
+              <button type="submit" class="btn btn-warning pl-4 pr-4" style="text-transform: uppercase;" id="reg">Register</button>
+              <div class="mb-3 mt-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I've read and agree with the Terms & Policy</label>
+                </div>
+        </Div>
+        </div>
+    </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

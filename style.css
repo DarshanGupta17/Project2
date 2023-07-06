@@ -1,0 +1,57 @@
+nav{
+    box-shadow: 2px 2px 15px 5px;
+}
+/* body{
+    background-image: url(imgs/1.jpg);
+    background-repeat: no-repeat;
+} */
+#head1{
+    font-size: 65px;
+}
+.nav-link{
+    color: wheat;
+}
+.Home{
+    background-image: url(imgs/1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    height: 800px;
+    background-attachment: fixed;
+}
+#header{
+    margin-top: 6rem;
+}
+#btn:hover{
+    color: white;
+    background-color: transparent;
+}
+#slideshow{
+    height: 800px;
+    width: 100%;
+}
+p{
+    color: wheat;
+}
+h5{
+    color: wheat;
+}
+#car{
+    box-shadow: 2px 2px 5px 2px;
+    cursor: pointer;
+}
+#car:hover{
+    box-shadow: 2px 2px 20px 2px;
+    transition: .2s;
+}
+/* #btn{
+    background-color: ;
+} */
+#reg:hover{
+    background-color: transparent;
+    color: wheat;
+}
+/* #about{
+    width: 750px;
+    align-items: center;
+} */
